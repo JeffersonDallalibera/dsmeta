@@ -9,10 +9,10 @@ import pt from 'date-fns/locale/pt';
 
 
 function SalesCard() {
-
+    registerLocale('pt', pt);
+    
     const [minDate, setMinDate] = useState(new Date());
     const [maxDate, setMaxDate] = useState(new Date());
-    registerLocale('pt', pt)
 
 
     return (
@@ -80,4 +80,4 @@ function SalesCard() {
     )
 }
 
-export default SalesCard
+export default SalesCard;

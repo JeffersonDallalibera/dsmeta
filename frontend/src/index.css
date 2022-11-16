@@ -18,3 +18,16 @@ a, a:hover, a:visited{
   color: unset;
   text-decoration: none;
 }
+.ds-meta-container{
+  margin: 0 auto;
+  height: 815px;
+  width: 900px;
+  left: 43px;
+  top: 260px;
+  border-radius: 10px;
+
+}
+
+#sales{
+  padding: 40px 10px;
+}

@@ -5,7 +5,13 @@ function App() {
   return (
     <>
       <MasterHeader/>
-      <NotificationButton />
+      <main>
+        <section id="sales">
+            <div className="ds-meta-container">
+              <SalesCard/>
+              </div>
+            </section>
+          </main>
     </>
   );
 }
